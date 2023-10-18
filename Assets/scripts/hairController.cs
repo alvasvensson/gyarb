@@ -5,11 +5,11 @@ using UnityEngine;
 public class hairController : MonoBehaviour
 {
     [SerializeField]
-    List<GameObject> people = new List<GameObject>();
+    List<GameObject> people;
 
 
     [SerializeField]
-    List<GameObject> hairs = new List<GameObject>();
+    List<GameObject> hairs;
 
     [SerializeField]
     GameObject[] hairPlacements;

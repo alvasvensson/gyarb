@@ -17,8 +17,8 @@ public class displayController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        girlText.text = "1 = " + sceneController.girlSelected + sceneController.girlHair;
-        boyText.text = "2 = " + sceneController.boySelected + sceneController.boyHair;
+        girlText.text = "1: " + sceneController.girlSelected + ":" + sceneController.girlHair;
+        boyText.text = "2: " + sceneController.boySelected + ":" + sceneController.boyHair;
 
         print(sceneController.girlSelected);
         print(sceneController.girlHair);

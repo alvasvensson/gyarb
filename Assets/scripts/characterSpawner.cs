@@ -6,15 +6,10 @@ public class characterSpawner : MonoBehaviour
 {
 
     hairController pickedHair = new();
-    public void getCharacter()
-    {
-        // if ( pickedHair.myHair)
-        // {
-
-        // }
 
 
-    }
+
+
 
 
     // // Start is called before the first frame update
@@ -24,8 +19,9 @@ public class characterSpawner : MonoBehaviour
     // }
 
     // // Update is called once per frame
-    // void Update()
-    // {
+    void Update()
+    {
+    
 
-    // }
+    }
 }
