@@ -5,11 +5,11 @@ using UnityEngine;
 public class characterSpawner : MonoBehaviour
 {
 
-    hairController pickedHair = new();
-
-
-
-
+  
+  
+  
+  
+    // hairController pickedHair = new();
 
 
     // // Start is called before the first frame update
