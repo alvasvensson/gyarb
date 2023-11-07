@@ -20,10 +20,16 @@ public class sceneController : MonoBehaviour
 
     public void goToScene(int target)
     {
-        girlHair = tjejSelector.GetHairOfCurrentPerson();
-        girlSelected = tjejSelector.currentSelection;
-        boyHair = killSelector.GetHairOfCurrentPerson();
-        boySelected = killSelector.currentSelection;
+        if (tjejSelector != null)
+        {
+            girlHair = tjejSelector.GetHairOfCurrentPerson();
+            girlSelected = tjejSelector.currentSelection;
+        }
+        if (killSelector != null)
+        {
+            boyHair = killSelector.GetHairOfCurrentPerson();
+            boySelected = killSelector.currentSelection;
+        }
 
         SceneManager.LoadScene(target);
     }
@@ -38,6 +44,6 @@ public class sceneController : MonoBehaviour
     }
     void Update()
     {
-        
+
     }
 }

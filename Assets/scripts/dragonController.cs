@@ -1,17 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class dragonController : MonoBehaviour
 {
 
     [SerializeField]
-    public int hp = 3;
+    public static int hp = 3;
 
     [SerializeField]
     List<GameObject> hearts;
     [SerializeField]
     List<GameObject> noHearts;
+
+    [SerializeField]
+    public TMP_Text resultText;
+
+    [SerializeField]
+    GameObject gameOver;
+
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +33,11 @@ public class dragonController : MonoBehaviour
     {
         hearts[hp].SetActive(false);
         noHearts[hp].SetActive(true);
+
+        if (hp <= 0)
+        {
+            gameOver.SetActive(true);
+        }
 
     }
 
@@ -41,7 +55,6 @@ public class dragonController : MonoBehaviour
 
     public void Hurt()
     {
-        print("ouch!");
         hp--;
     }
 }
