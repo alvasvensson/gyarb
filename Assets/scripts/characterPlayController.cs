@@ -20,6 +20,8 @@ public class characterPlayController : MonoBehaviour
     [SerializeField]
     float timer = 0;
 
+    
+
 
     public static bool swordSwung = false;
 
@@ -28,6 +30,7 @@ public class characterPlayController : MonoBehaviour
 
     void Start()
     {
+      
 
     }
 
@@ -64,7 +67,7 @@ public class characterPlayController : MonoBehaviour
             // print(swordSwung);
         }
 
-      
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)

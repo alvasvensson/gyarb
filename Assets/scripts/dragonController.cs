@@ -21,6 +21,12 @@ public class dragonController : MonoBehaviour
     [SerializeField]
     GameObject gameOver;
 
+    [SerializeField]
+    GameObject dragon;
+
+    [SerializeField]
+    GameObject deadDragon;
+
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +43,8 @@ public class dragonController : MonoBehaviour
         if (hp <= 0)
         {
             gameOver.SetActive(true);
+            deadDragon.SetActive(true);
+            dragon.SetActive(false);
         }
 
     }
