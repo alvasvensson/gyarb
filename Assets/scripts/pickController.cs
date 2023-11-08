@@ -26,9 +26,9 @@ public class pickController : MonoBehaviour
         }
     }
 
-    public string GetHairOfCurrentPerson()
+    public int GetHairOfCurrentPerson()
     {
-        return panels[currentSelection].transform.parent.GetComponent<CharacterHandler>().myHairName;
+        return panels[currentSelection].transform.parent.GetComponent<CharacterHandler>().myHairNumber;
     }
 
 

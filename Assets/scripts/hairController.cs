@@ -9,7 +9,7 @@ public class hairController : MonoBehaviour
 
 
     [SerializeField]
-    List<GameObject> hairs;
+    public List<GameObject> hairs;
 
     [SerializeField]
     GameObject[] hairPlacements;

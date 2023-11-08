@@ -10,6 +10,9 @@ public class characterSpawner : MonoBehaviour
     [SerializeField]
     GameObject[] boys;
 
+    [SerializeField]
+    GameObject[] gameHair;
+
 
     void Start()
     {
@@ -35,6 +38,25 @@ public class characterSpawner : MonoBehaviour
                 boys[i].SetActive(true);
             }
         }
+
+
+
+        gameHair[sceneController.girlHairNumber].SetActive(true);
+        gameHair[sceneController.boyHairNumber].SetActive(true);
+
+
+        // for (int i = 0; i < hairController.hairs.Count; i++)
+        // {
+        //     if (sceneController.girlHair == hairController.hairs[i].name)
+        //     {
+        //         gameHair[i].SetActive(true);
+        //     }
+        //     if (sceneController.boyHair == hairController.hairs[i].name)
+        //     {
+        //         gameHair[i].SetActive(true);
+        //     }
+
+        // }
     }
 
     // hairController pickedHair = new();

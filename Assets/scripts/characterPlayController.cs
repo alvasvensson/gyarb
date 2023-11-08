@@ -30,7 +30,15 @@ public class characterPlayController : MonoBehaviour
 
     void Start()
     {
-      
+      /*
+        for (int i= 0; i < list.Count; i++)
+        {
+            if (selectedhair == list[i].name)¨
+            {
+                gameobject usedhair = list[i];
+            }
+        }
+      */
 
     }
 

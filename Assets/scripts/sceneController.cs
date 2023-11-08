@@ -13,23 +13,26 @@ public class sceneController : MonoBehaviour
     pickController killSelector;
 
     public static string girlHair;
+    public static int girlHairNumber;
     public static int girlSelected;
 
     public static string boyHair;
+    public static int boyHairNumber;
     public static int boySelected;
 
     public void goToScene(int target)
     {
         if (tjejSelector != null)
         {
-            girlHair = tjejSelector.GetHairOfCurrentPerson();
+            girlHairNumber = tjejSelector.GetHairOfCurrentPerson();
             girlSelected = tjejSelector.currentSelection;
         }
         if (killSelector != null)
         {
-            boyHair = killSelector.GetHairOfCurrentPerson();
+            boyHairNumber = killSelector.GetHairOfCurrentPerson();
             boySelected = killSelector.currentSelection;
         }
+
 
         SceneManager.LoadScene(target);
     }
