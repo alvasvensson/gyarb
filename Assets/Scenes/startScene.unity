@@ -546,6 +546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hairPosition: {fileID: 0}
   myHairName: 
+  myHairNumber: 0
 --- !u!1 &345744305
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,7 +728,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b557548e3ca5e434da2167c894939e03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 217aceb6de5f35c48bfb52da068f008a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -930,6 +931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hairPosition: {fileID: 0}
   myHairName: 
+  myHairNumber: 0
 --- !u!1 &617543561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,7 +1433,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a26547eee21e5a648a10051e2e84c9b8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bb79d0074047e484d9c2fc9e5c046b53, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1920,6 +1922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hairPosition: {fileID: 0}
   myHairName: 
+  myHairNumber: 0
 --- !u!1 &1548036692
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,7 +2055,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b557548e3ca5e434da2167c894939e03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ce5f38d8b65f911469d0fed358175d63, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2127,7 +2130,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a26547eee21e5a648a10051e2e84c9b8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e8dd5e70f457484fa09e6c7fad90083, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2763,6 +2766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hairPosition: {fileID: 0}
   myHairName: 
+  myHairNumber: 0
 --- !u!1 &1840035872
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,7 +2873,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a26547eee21e5a648a10051e2e84c9b8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4135ad7f4fbd5a646af035cb00b46d79, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3147,6 +3151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hairPosition: {fileID: 0}
   myHairName: 
+  myHairNumber: 0
 --- !u!1 &1936703502
 GameObject:
   m_ObjectHideFlags: 0
@@ -3338,7 +3343,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b557548e3ca5e434da2167c894939e03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 180e6a6363649254c9ef97ec436623f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3805,6 +3810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hairPosition: {fileID: 0}
   myHairName: 
+  myHairNumber: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
