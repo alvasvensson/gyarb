@@ -29,7 +29,7 @@ public class characterSpawner : MonoBehaviour
         }
         for (int i = 0; i < boys.Length; i++)
         {
-            if (i != sceneController.girlSelected)
+            if (i != sceneController.boySelected)
             {
                 boys[i].SetActive(false);
             }

@@ -12,11 +12,11 @@ public class sceneController : MonoBehaviour
     [SerializeField]
     pickController killSelector;
 
-    public static string girlHair;
+    // public static string girlHair;
     public static int girlHairNumber;
     public static int girlSelected;
 
-    public static string boyHair;
+    // public static string boyHair;
     public static int boyHairNumber;
     public static int boySelected;
 

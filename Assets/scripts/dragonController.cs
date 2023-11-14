@@ -27,11 +27,18 @@ public class dragonController : MonoBehaviour
     [SerializeField]
     GameObject deadDragon;
 
+    // [SerializeField]
+    // Animation animation;
+
+    // animation["hitAnim"].wrapMode = WrapMode.Once;
+
+    [SerializeField]
+    Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
-        print(hp);
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -64,5 +71,6 @@ public class dragonController : MonoBehaviour
     public void Hurt()
     {
         hp--;
+        anim.Play("hitAnim");
     }
 }
