@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class instructionsController : MonoBehaviour
 {
@@ -8,6 +10,8 @@ public class instructionsController : MonoBehaviour
     [SerializeField]
     GameObject instructionsPanel;
 
+    [SerializeField]
+    public TMP_Text buttonText;
 
     public void instructionsToggle()
     {
@@ -16,6 +20,14 @@ public class instructionsController : MonoBehaviour
             bool isActive = instructionsPanel.activeSelf;
 
             instructionsPanel.SetActive(!isActive);
+            if (isActive == true)
+            {
+                buttonText.text = "I";
+            }
+            else if (isActive == false)
+            {
+                buttonText.text = "X";
+            }
         }
     }
 

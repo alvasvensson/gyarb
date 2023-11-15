@@ -1012,7 +1012,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You killed the dragon!
+  m_text: "Du d\xF6dade draken!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 02b3dab89844ae3429869c4448ce111b, type: 2}
   m_sharedMaterial: {fileID: 8671716900257898095, guid: 02b3dab89844ae3429869c4448ce111b, type: 2}
@@ -3169,6 +3169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instructionsPanel: {fileID: 2286127}
+  buttonText: {fileID: 1979556025}
 --- !u!1 &1644863283
 GameObject:
   m_ObjectHideFlags: 0
@@ -10004,10 +10005,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I
+  m_text: X
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6a5fbd5d4f7bdf043b0b466371646767, type: 2}
-  m_sharedMaterial: {fileID: 3308103886022234311, guid: 6a5fbd5d4f7bdf043b0b466371646767, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 02b3dab89844ae3429869c4448ce111b, type: 2}
+  m_sharedMaterial: {fileID: 8671716900257898095, guid: 02b3dab89844ae3429869c4448ce111b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
