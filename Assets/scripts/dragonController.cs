@@ -38,7 +38,7 @@ public class dragonController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        // anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -71,6 +71,7 @@ public class dragonController : MonoBehaviour
     public void Hurt()
     {
         hp--;
-        anim.Play("hitAnim");
+        anim.gameObject.SetActive(true);
+        anim.SetTrigger("hit");
     }
 }
