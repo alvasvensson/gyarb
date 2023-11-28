@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Detta script sköter vilken karaktär spelaren har valt och aktiverar en ram
+// på den valda så användaren kan se vilken som är vald just nu
 public class pickController : MonoBehaviour
 {
 
@@ -29,18 +31,5 @@ public class pickController : MonoBehaviour
     public int GetHairOfCurrentPerson()
     {
         return panels[currentSelection].transform.parent.GetComponent<CharacterHandler>().myHairNumber;
-    }
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

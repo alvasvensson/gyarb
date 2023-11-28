@@ -4,10 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+//Detta script kontrollerar spelkaraktärerna i själva speldelen av projektet
 public class characterPlayController : MonoBehaviour
 {
-
-
     [SerializeField]
     float speed = 1;
 
@@ -20,27 +19,13 @@ public class characterPlayController : MonoBehaviour
     [SerializeField]
     float timer = 0;
 
-    
-
 
     public static bool swordSwung = false;
-
 
     List<GameObject> currentEnemiesInRange = new();
 
     void Start()
-    {
-      /*
-        for (int i= 0; i < list.Count; i++)
-        {
-            if (selectedhair == list[i].name)¨
-            {
-                gameobject usedhair = list[i];
-            }
-        }
-      */
-
-    }
+    {}
 
     void Update()
     {
@@ -55,8 +40,6 @@ public class characterPlayController : MonoBehaviour
 
         if (Input.GetAxisRaw("Fire1") > 0 && timer > timeBetweenHits)
         {
-            // swordSwung = true;
-            // print(swordSwung);
 
             foreach (GameObject e in currentEnemiesInRange)
             {
@@ -68,11 +51,6 @@ public class characterPlayController : MonoBehaviour
             }
 
             timer = 0;
-        }
-        else
-        {
-            // swordSwung = false;
-            // print(swordSwung);
         }
 
 

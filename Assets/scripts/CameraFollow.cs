@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Detta script används inte i den slutliga versionen, men det användes för att kameran skulle följa spelaren. 
+
 public class CameraFollow : MonoBehaviour
 {
     [SerializeField]

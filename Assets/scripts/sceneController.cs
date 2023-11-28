@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Detta script byter scen och för över vilka kläder och hår som är valda mellan scenerna
 public class sceneController : MonoBehaviour
 {
 
@@ -11,12 +12,8 @@ public class sceneController : MonoBehaviour
 
     [SerializeField]
     pickController killSelector;
-
-    // public static string girlHair;
     public static int girlHairNumber;
     public static int girlSelected;
-
-    // public static string boyHair;
     public static int boyHairNumber;
     public static int boySelected;
 
@@ -33,7 +30,6 @@ public class sceneController : MonoBehaviour
             boySelected = killSelector.currentSelection;
         }
 
-
         SceneManager.LoadScene(target);
     }
     public void goToStart(int target)
@@ -41,12 +37,4 @@ public class sceneController : MonoBehaviour
         SceneManager.LoadScene(target);
     }
 
-    void Start()
-    {
-
-    }
-    void Update()
-    {
-
-    }
 }

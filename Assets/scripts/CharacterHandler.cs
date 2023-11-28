@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+// Detta scriptet hämtar och lagrar vilka kläder och hår som spelaren har valt 
 public class CharacterHandler : MonoBehaviour
 {
     public Transform hairPosition;
@@ -19,7 +20,6 @@ public class CharacterHandler : MonoBehaviour
     {
         hair.transform.position = hairPosition.position;
         myHairName = hair.name;
-        // print(hair.name);
         int.TryParse(hair.name[4].ToString(), out myHairNumber);
     }
 

@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Detta script spawnar håren på ett slumpmässigt ställe
 public class hairController : MonoBehaviour
 {
     [SerializeField]
     List<GameObject> people;
-
 
     [SerializeField]
     public List<GameObject> hairs;
@@ -26,15 +26,6 @@ public class hairController : MonoBehaviour
             hairs.Remove(myHair);
         }
 
-        // foreach (GameObject item in hairPlacements)
-        // {
-        //     myHair = GetRandom(hairs);
-        //     GameObject newHair = Instantiate(myHair, item.transform);
-
-
-        //     newHair.transform.position = item.transform.position;
-        //     hairs.Remove(myHair);
-        // }
     }
     public GameObject GetRandom(List<GameObject> listToRandomize)
     {
@@ -44,11 +35,4 @@ public class hairController : MonoBehaviour
     }
 
 
-
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

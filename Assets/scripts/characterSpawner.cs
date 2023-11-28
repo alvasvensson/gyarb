@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Detta script spawnar karaktärerna som valdes och deras hår i speldelen av projektet
 public class characterSpawner : MonoBehaviour
 {
 
@@ -39,32 +40,11 @@ public class characterSpawner : MonoBehaviour
             }
         }
 
-
-
         gameHair[sceneController.girlHairNumber].SetActive(true);
         gameHair[sceneController.boyHairNumber].SetActive(true);
 
-
-        // for (int i = 0; i < hairController.hairs.Count; i++)
-        // {
-        //     if (sceneController.girlHair == hairController.hairs[i].name)
-        //     {
-        //         gameHair[i].SetActive(true);
-        //     }
-        //     if (sceneController.boyHair == hairController.hairs[i].name)
-        //     {
-        //         gameHair[i].SetActive(true);
-        //     }
-
-        // }
     }
 
-    // hairController pickedHair = new();
-
-
-    // // Start is called before the first frame update
-
-    // // Update is called once per frame
     void Update()
     {
 

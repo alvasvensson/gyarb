@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+// Detta script kontrollerar draken i speldelen av projektet
 public class dragonController : MonoBehaviour
 {
 
@@ -27,21 +28,10 @@ public class dragonController : MonoBehaviour
     [SerializeField]
     GameObject deadDragon;
 
-    // [SerializeField]
-    // Animation animation;
-
-    // animation["hitAnim"].wrapMode = WrapMode.Once;
-
     [SerializeField]
     Animator anim;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        // anim = GetComponent<Animator>();
-    }
 
-    // Update is called once per frame
     void Update()
     {
         hearts[hp].SetActive(false);
@@ -55,18 +45,6 @@ public class dragonController : MonoBehaviour
         }
 
     }
-
-    // private void OnTriggerStay2D(Collider2D other)
-    // {
-
-    //     print(characterPlayController.swordSwung);
-    //     if (characterPlayController.swordSwung == true)
-    //     {
-    //         hp--;
-    //         print(hp);
-    //     }
-
-    // }
 
     public void Hurt()
     {

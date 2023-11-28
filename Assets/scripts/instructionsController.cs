@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+//Detta script kontrollerar insturktionspanelen som finns i speldelen av projektet
 public class instructionsController : MonoBehaviour
 {
 
